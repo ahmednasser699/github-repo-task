@@ -1,0 +1,38 @@
+.image{
+    width: 12%;
+    height: 12%;
+  
+}
+.content{
+margin-left: 20px;
+max-width: 80%;
+
+
+}
+.ui.list>.item>.image+.content{
+padding-bottom: 10px;
+}
+.ui.list .list>.item .header, .ui.list>.item .header{
+  margin-top: 15px;
+}
+.content .header{
+  
+    font-size: 32px;
+    font-weight: bolder;
+}
+.content h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content .issues,
+.content .stars{
+padding: 5px 12px;
+margin-right: 20px;
+
+}
+.content .issues{
+    border: 2px solid red;
+}
+.content .stars{
+    border: 2px solid blue;
+}
